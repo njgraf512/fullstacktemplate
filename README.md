@@ -1,80 +1,53 @@
+<!-- The title of your project here should probably align with the name of the project in your `package.json` -->
 # MERN-Stack Template
 
-This is a MERN-stack template and general full stack development environment for quick MVP ideas or technical challenges.
 
-## Getting Started
+A MERN-stack template environment useful for getting new ideas up off the ground, and running quickly.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Quick start
 
-### Prerequisites
+<!-- Note this is important to list:  -->
+1. If you don't already have it installed, you'll need to install MongoDB. If you have Homebrew installed, the easiest way to get started is running, `brew install mongodb`. For other installation options, see the link to MongoDB's website below.
+2. Start MongoDB, `mongod --config /usr/local/etc/mongod.conf` (your own config file path may vary)
+3. Run `npm install`
+4. Build front-end code with webpack in watch mode by running `npm run build-js`
+5. Start express server by running `npm start`
 
-All dependencies listing in `package.json`
+**That's it! Navigate to http://localhost:8080, and you're ready to start developing!**
 
-### Installing
+## Testing
 
-A step by step series of examples that tell you how to get a development env running
-
-To install dependencies
-
-```
-npm install
-```
-
-## Development
-
-To run server
-
-```
-npm start
-```
-
-To run webpack
-
-```
-npm run react-dev
-```
-
-## Running the tests
-
-To run tests
-
-```
+The Jest testing framework is used for both front, and back-end tests and can be started by running:
+```sh
 npm test
 ```
 
-## Deployment
+## Tech Stack
 
-Not currently deployed
+- [React.js](https://https://reactjs.org/)
+- [Express](https://expressjs.com/)
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [Jest](https://jestjs.io/)
+- [Enzyme](https://airbnb.io/enzyme/)
+- [SuperTest](https://github.com/visionmedia/supertest/)
+- [ESLint](add-github-link!!!)
+<!-- You should add a `lint`, and maybe a `lint-fix` (if you have option to report and report/fix errors) script(s) to your package.json -->
 
-## Built With
-
-- [MongoDB](https://www.mongodb.com/) - The database
-- [Mongoose](https://mongoosejs.com/) - The database management tool
-- [React.js](https://https://reactjs.org/) - The front-end MVC framework
-- [Express](https://expressjs.com/) - The server
-- [Node.js](https://nodejs.org/) - The back-end
-- [Jest](https://jestjs.io/) - The testing framework
-- [Enzyme](https://airbnb.io/enzyme/) - The testing utilities
-- [SuperTest](https://github.com/visionmedia/supertest/) - The http integration testing
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Git](https://git-scm.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+<!--  Don't need to list it here, but I NPM -D installed nodemon (shouldn't expect that users have that globally installed) -->
 
 ## Authors
 
-- **Nicholas Vincent-Hill** - [Nicholas Vincent-Hill](http://nickvh.tech/)
-
+**Nicholas Vincent-Hill** - [Nicholas Vincent-Hill](http://nickvh.tech/)
+<!-- The following link to contributors doesn't work, should either fix or remove it. -->
 See also the list of [contributors](https://github.com/your/project/contributors) who also participated in this project.
+
+## Contributing
+
+**Want to contribute to this project?**
+Awesome! Please first read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Thank you to the 99s for helping me put this together
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

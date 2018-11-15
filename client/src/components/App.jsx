@@ -10,6 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <h1 className="title">MERN-Stack Template</h1>
+        {/* <br /> tags are not commonly used in production code. CSS margins/padding are more common. */}
         <br />
         <p>Happy coding!</p>
       </div>

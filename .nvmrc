@@ -1,1 +1,4 @@
+// This seems like something that deserves a mention in `README.md` if you're going to include the file.
+// Personally, I'd probably just get rid of it. This is assuming a global installation of nvm, which many won't have,
+// plus your `package.json` states the minimum node requirement.
 v10.13.0

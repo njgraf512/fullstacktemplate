@@ -1,3 +1,6 @@
+// If this works, you should reference how to make sure it works in the README.MD.
+// The user will probably have to ensure they have MongoDB installed, and started.
+
 const mongoose = require('mongoose');
 
 const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/exampledb';
